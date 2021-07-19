@@ -11,7 +11,7 @@
 }
 
 #body {
-  height: 100%;
+  height: 100vh;
   width: 1024px;
   margin: 0 auto; /*부모로부터 가운데정렬*/
 }
@@ -89,4 +89,9 @@
 
 .product-avatar {
   width: 12px;
+}
+
+.product-link {
+  color: inherit;
+  text-decoration: none;
 }
